@@ -168,4 +168,3 @@ function worldClock() {
     second_hand.css('transform', 'rotate(' + second + 'deg)');
   });
 }
-  worldClock();
