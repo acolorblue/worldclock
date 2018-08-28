@@ -5,9 +5,9 @@ function worldClock() {
       timezone_offset,
       this_clock,
       hour,
-      hour_hand
+      hour_hand,
       minute,
-      minute_hand
+      minute_hand,
       second,
       second_hand;
 
