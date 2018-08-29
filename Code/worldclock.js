@@ -1,6 +1,6 @@
   // WORLD CLOCK
-  var world_clock_interval = setInterval(worldClock, 1000);
-function worldClock() {
+  var timezone_adjustments_interval = setInterval(timezoneAdjustments, 1000);
+function timezoneAdjustments() {
   var date = new Date(),
       timezone_offset,
       this_clock,
