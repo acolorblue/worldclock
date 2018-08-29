@@ -1,5 +1,5 @@
   // WORLD CLOCK
-//   var world_clock_interval = setInterval(worldClock, 1000);
+  var world_clock_interval = setInterval(worldClock, 1000);
 function worldClock() {
   var date = new Date(),
       timezone_offset,
@@ -168,4 +168,3 @@ function worldClock() {
     second_hand.css('transform', 'rotate(' + second + 'deg)');
   });
 }
-  worldClock();
