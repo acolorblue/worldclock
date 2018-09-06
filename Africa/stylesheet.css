@@ -1,3 +1,4 @@
+/* APPLICATION = WORLD CLOCK - BORDER - BACKGROUND IMAGES */
 .world-clock .timezones clock.accra-ghana .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Accra%2C%20Ghana/Pieter%20Hugo%20-%20Permanent%20Error%2C%20Ghana%20-%20Compressed.jpg");
 }
@@ -103,12 +104,10 @@
 
 .world-clock .timezones clock.lagos-nigeria .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lagos%2C%20Nigeria/Alex%20Majoli%20-%20Lagos%2C%20Nigeria%2C%202013%20-%20Compressed.jpg");
-/*   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lagos%2C%20Nigeria/Stuart%20franklin-and-chop%20-%20A%20throughfare%20for%20fisherman%20who%20build%20houses%20above%20it%20waters%2C%20Lagos%2C%20Nigeria%2C%202002%20-%20Compressed.jpg"); */
 }
 
 .world-clock .timezones clock.libreville-gabon .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Libreville%2C%20Gabon/Bruno%20Barbey%20-%20Boys%20ride%20bicycles%20on%20a%20country%20road%20near%20Booue%20-%20Compressed.jpg");
-/*   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Libreville%2C%20Gabon/Bruno%20Barbey%20-%20Bumper%20cars%20at%20a%20children%E2%80%99s%20funfair%20in%20Libreville%2C%20Gabon.jpg"); */
 }
 
 .world-clock .timezones clock.lilongwe-malawi .border {
@@ -125,7 +124,6 @@
  
 .world-clock .timezones clock.lusaka-zambia .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lusaka%2C%20Zambia/Annie%20Griffiths%20-%20Looking%20over%20the%20edge%20of%20Victoria%20Falls%20from%20a%20swimming%20hole%2C%20Zambia%20%20-%201%20-%20Compressed.jpg");
-/*   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lusaka%2C%20Zambia/Annie%20Griffiths%20-%20Looking%20over%20the%20edge%20of%20Victoria%20Falls%20from%20a%20swimming%20hole%2C%20Zambia%20-%202.jpg"); */
   background-position: left;  
 } 
  
@@ -154,7 +152,6 @@
 }
 
 .world-clock .timezones clock.moroni-comoros .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Moroni%2C%20%20Comoros/Unidentified%20-%20Moroni%2C%20Comoros%20-%20Compressed.jpg");
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Moroni%2C%20%20Comoros/Jose%20Cendon%20-%20Moroni%2C%20Comoros%20-%20Compressed.jpg");
 }
 
@@ -212,7 +209,6 @@
 
 .world-clock .timezones clock.tunis-tunisia .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Tunis%2C%20Tunisia/Harry%20Gruyaert%20-%20Nearby%20area%20of%20Sidi%20Bou%2C%20Tunis%2C%201995%20-%20Compressed.png");
-/*   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Tunis%2C%20Tunisia/Unidentified%20-%20Tunisia%20-%201%20-%20Compressed.jpg"); */
 }
 
 .world-clock .timezones clock.victoria-seychelles .border {
