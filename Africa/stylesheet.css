@@ -1,3 +1,231 @@
+/* APPLICATION = WORLD CLOCK - LOCATION TITLE */
+.world-clock .timezones clock.abuja-nigeria::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Abuja%2C%20Nigeria/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.accra-ghana::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Accra%2C%20Ghana/0.%20Location%20Title/2.png");
+}
+
+.world-clock .timezones clock.addis-ababa-ethiopia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Addis%20Ababa%2C%20Ethiopia/0.%20Location%20Title/1.png");
+}
+  
+.world-clock .timezones clock.algiers-algeria::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Algiers%2C%20Algeria/0.%20Location%20Title/1.png");
+}
+ 
+.world-clock .timezones clock.antananarivo-madagascar::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Antananarivo%2C%20Madagascar/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.asmara-eritrea::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Asmara%2C%20Eritrea/0.%20Location%20Title/1.png");
+}
+ 
+.world-clock .timezones clock.bamako-mali::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Bamako%2C%20Mali/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.bangui-central-african-republic::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Bangui%2C%20Central%20African%20Republic/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.banjul-gambia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Banjul%2C%20Gambia/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.bissau-guinea-bissau::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Bissau%2C%20Guinea-Bissau/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.brazzaville-congo::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Brazzaville%2C%20Congo/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.bujumbura-burundi::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Bujumbura%2C%20Burundi/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.cairo-egypt::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Cairo%2C%20Egypt/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.conakry-guinea::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Conakry%2C%20Guinea/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.dakar-senegal::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Dakar%2C%20Senegal/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.djibouti-djibouti::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Djibouti%2C%20Djibouti/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.dodoma-tanzania::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Dodoma%2C%20Tanzania/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.freetown-sierraleone::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Freetown%2C%20Sierra%20Leone/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.gaborone-botswana::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Gaborone%2C%20Botswana/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.harare-zimbabwe::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Harare%2C%20Zimbabwe/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.jamestown-sainthelena::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Jamestown%2C%20Saint%20Helena/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.juba-southsudan::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Juba%2C%20South%20Sudan/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.kampala-uganda::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Kampala%2C%20Uganda/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.khartoum-sudan::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Khartoum%2C%20Sudan/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.kigali-rwanda::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Kigali%2C%20Rwanda/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.kinshasa-dem-rep-of-congo::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Kinshasa%2C%20Dem%20Republic%20Of%20Congo/0.%20Location%20Title/2.png");
+}
+
+.world-clock .timezones clock.libreville-gabon::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Libreville%2C%20Gabon/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.lilongwe-malawi::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lilongwe%2C%20Malawi/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.lome-togo::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lome%2C%20Togo/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.luanda-angola::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Luanda%2C%20Angola/0.%20Location%20Title/1.png");
+}
+ 
+.world-clock .timezones clock.lusaka-zambia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lusaka%2C%20Zambia/0.%20Location%20Title/1.png"); 
+} 
+ 
+.world-clock .timezones clock.malabo-equatorial-guinea::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Malabo%2C%20Equatorial%20Guinea/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.maputo-mozambique::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Maputo%2C%20Mozambique/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.maseru-lesotho::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Maseru%2C%20Lesotho/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.mbabane-eswatini::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Mbabane%2C%20eSwatini/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.mogadishu-somalia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Mogadishu%2C%20Somalia/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.monrovia-liberia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Monrovia%2C%20Liberia/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.moroni-comoros::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Moroni%2C%20%20Comoros/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.nairobi-kenya::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Nairobi%2C%20Kenya/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.ndjamena-chad::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Ndjamena%2C%20Chad/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.niamey-niger::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Niamey%2C%20Niger/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.nouakchott-mauritania::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Nouakchott%2C%20Mauritania/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.ouagadougou-burkina-faso::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Ouagadougou%2C%20Burkina%20Faso/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.port-louis-mauritius::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Port%20Louis%2C%20Mauritius/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.porto-novo-benin::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Porto%20Novo%2C%20Benin/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.praia-cabo-verde::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Praia%2C%20Cabo%20Verde/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.pretoria-south-africa::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Pretoria%2C%20South%20Africa/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.rabat-morocco::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Rabat%2C%20Morocco/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.saint-denis-reunion::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Saint-Denis%2C%20R%C3%A9union/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.sao-tome-principe::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/S%C3%A3o%20Tom%C3%A9%2C%20Sao%20Tome%20and%20Principe/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.tripoli-libya::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Tripoli%2C%20Libya/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.tunis-tunisia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Tunis%2C%20Tunisia/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.victoria-seychelles::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Victoria%2C%20Seychelles/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.windhoek-namibia::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Windhoek%2C%20Namibia/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.yamoussoukro-ivory-coast::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Yamoussoukro%2C%20Ivory%20Coast/0.%20Location%20Title/1.png");
+}
+
+.world-clock .timezones clock.yaounde-cameroon::before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Yaounde%2C%20Cameroon/0.%20Location%20Title/1.png");
+}
+
+
+
+
 /* APPLICATION = WORLD CLOCK - BORDER - BACKGROUND IMAGES */
 .world-clock .timezones clock.accra-ghana .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Accra%2C%20Ghana/Pieter%20Hugo%20-%20Permanent%20Error%2C%20Ghana%20-%20Compressed.jpg");
@@ -8,7 +236,6 @@
 }
   
 .world-clock .timezones clock.algiers-algeria .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Algiers%2C%20Algeria/A.%20Abbas%20-%20Masked%20ninjas%20of%20the%20Gendarmerie%20search%20youths%20for%20weapons%2C%20Algeria%2C%20Algiers%2C%201995%20-%20Compressed.jpg");
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Algiers%2C%20Algeria/Unidentified%20-%20Algiers%2C%20Algeria%20-%20Compressed.jpg");
 }
  
@@ -18,6 +245,10 @@
 
 .world-clock .timezones clock.asmara-eritrea .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Asmara%2C%20Eritrea/Unidentified%20-%20Dahlak%20Hotel%2C%20Massawa%2C%20Eritrea%20-%20Compressed.jpg");
+}
+
+.world-clock .timezones clock.bamako-mali .border {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Bamako%2C%20Mali/A.%20Abbas%20-%20Mali%2C%201996%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.bangui-central-african-republic .border {
@@ -42,12 +273,7 @@
 }
 
 .world-clock .timezones clock.cairo-egypt .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Cairo%2C%20Egypt/Unidentified%20-%20Louis%20Armstrong%20plays%20for%20his%20wife%20Lucille%20in%20front%20of%20the%20Sphinx%20in%20Giza%201961%20-%20Compressed.jpg");
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Cairo%2C%20Egypt/Unidentified%20-%20A%20limonade%20salesman%20in%20the%20souk%2C%20Cairo%2C%20Egypt%2C%202000%20-%20Compressed.jpg");
-}
-
-.world-clock .timezones clock.casablanca-morocco .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Casablanca%2C%20Morocco/Unidentified%20-%20Casablanca%2C%20Morocco%2C%202016%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.conakry-guinea .border {
@@ -102,8 +328,8 @@
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Kinshasa%2C%20Dem%20Republic%20Of%20Congo/Stuart%20Franklin%20-%20Street%20life%20in%20Kinshasa%2C%20Dem%20Rep%20Of%20Congo%2C%202004%20-%20Compressed.jpg");
 }
 
-.world-clock .timezones clock.lagos-nigeria .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Lagos%2C%20Nigeria/Alex%20Majoli%20-%20Lagos%2C%20Nigeria%2C%202013%20-%20Compressed.jpg");
+.world-clock .timezones clock.abuja-nigeria .border {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Abuja%2C%20Nigeria/Alex%20Majoli%20-%20Lagos%2C%20Nigeria%2C%202013%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.libreville-gabon .border {
@@ -139,8 +365,8 @@
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Maseru%2C%20Lesotho/Ian%20Berry%20-%20Boy%20playing%20oil%20can%20guitar%20in%20the%20burnt%20ruins%20of%20his%20home%20during%20racial%20riot%2C%20Maseru%2C%201961%20-%20Compressed.jpg");
 }
 
-.world-clock .timezones clock.mbabane-swaziland .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Mbabane%2C%20Swaziland/Unidentified%20-%20The%20wedding%20morning%20of%20Princess%20Mantfombi%20in%20KwaZulu%2C%20Swaziland%2C%201978%20-%20Compressed.jpg");
+.world-clock .timezones clock.mbabane-eswatini .border {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Mbabane%2C%20eSwatini/Unidentified%20-%20The%20wedding%20morning%20of%20Princess%20Mantfombi%20in%20KwaZulu%2C%20Swaziland%2C%201978%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.mogadishu-somalia .border {
@@ -191,16 +417,16 @@
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Pretoria%2C%20South%20Africa/Greg%20Marinovich%20-%20South%20Africa%2C%201992%20-%20Compressed.jpg");
 }
 
+.world-clock .timezones clock.rabat-morocco .border {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Rabat%2C%20Morocco/Unidentified%20-%20Morocco%2C%202016%20-%20Compressed.jpg");
+}
+
 .world-clock .timezones clock.saint-denis-reunion .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Saint-Denis%2C%20R%C3%A9union/Unidentified%20-%20Saint%20Denis%2C%20Reunion%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.sao-tome-principe .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/S%C3%A3o%20Tom%C3%A9%2C%20Sao%20Tome%20and%20Principe/Alex%20Webb%20-%20Cocoa%20child%20workers%20play%20infront%20of%20a%20ruined%20plantation%20house%2C%20%202002%20-%20Compressed.jpg");
-}
-
-.world-clock .timezones clock.timbuktu-mali .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Timbuktu%2C%20Mali/A.%20Abbas%20-%20Mali%2C%201996%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.tripoli-libya .border {
