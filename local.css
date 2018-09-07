@@ -1,0 +1,162 @@
+* {
+  transition: all 200ms ease-in-out;
+}
+
+/* DESKTOP - APPLICATION */
+.application {
+  width: 100%;
+  height: 100%;
+/*   border-radius: 5px; */
+  overflow: hidden;
+  box-shadow: 0 0 20px #333;
+  background: rgba(0, 0, 0, .8);
+  display: flex;
+  flex-direction: column;
+  bottom: auto;
+  z-index: 2;
+}
+ 
+.application.hide {
+  transform: scale(0); 
+}
+
+.application ::selection,
+.application .scroll-container .highlight { 
+  background-color: rgba(255, 255, 255, .9);
+  color: rgba(0, 0, 0, .8);
+}
+
+ 
+/* PARENT CONTAINER */
+.application .parent-container {
+  width: -webkit-fill-available;
+  height: 100%;
+  border-radius: 4px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 5%;
+  font-family: Ahamono Monospaced;
+  font-size: 14px;
+  line-height: 1.4;
+  word-break: break-word;
+  position: relative;
+}
+
+
+
+
+/* APPLICATION = WORLD CLOCK */
+.application.world-clock {
+  background-color: #0f0f0f;
+}
+
+
+/* WORLD CLOCK - HEADER */
+.world-clock > .header {
+  background-color: #141414;
+}
+ 
+.world-clock > .header button.icons-b {
+  background: rgba(255, 255, 255, .1);
+}
+
+.world-clock > .header .top-bar .title {
+  padding: 0px 6px;
+  color: #ffffff;
+  text-shadow: 0px 0px 4px #545454;
+}
+
+.world-clock > .header .clock.call-to-action-controls {
+  display: inline-flex;
+}
+
+.world-clock > .header .call-to-action-controls > button {
+  background: rgba(255, 255, 255, .1);
+  color: #ddd;
+}
+
+.mobile.height-longer .world-clock .parent-container {
+  padding: 5% 2%;
+}
+
+.world-clock .scroll-container {
+  display: none;
+}
+
+
+/* WORLD CLOCK - TIMEZONES */ 
+.world-clock .timezones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.world-clock .timezones clock {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;  
+  position: relative;
+  margin: auto auto 5% auto;  
+} 
+
+.mobile.height-longer .world-clock .timezones clock {
+  width: 204px;
+  height: 204px;
+} 
+
+
+/* WORLD CLOCK - LOCATION */
+.world-clock .timezones clock::before {
+  content: '';
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.5);
+  display: block;  
+  position: absolute;
+  z-index: 2;
+} 
+
+.mobile .world-clock .timezones clock::before {
+  background-size: 101%;
+} 
+
+
+/* WORLD CLOCK - BORDER */
+.world-clock .timezones clock .border { 
+  width: inherit;
+  height: inherit;
+  border: 17px solid #141414;
+  border-radius: 50%;
+  background-size: cover;
+  background-size: auto 100%;
+  background-position: center;
+  position: relative;
+  margin: auto;
+  transition: background-size 200ms ease-in-out;
+}
+
+.world-clock .timezones clock.zoomed .border { 
+  background-size: auto 200%;
+  background-position: center;
+}
+
+
+/* WORLDCLOCK - INDICATORS */
+.world-clock .timezones clock .border .numeric-indicators {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+} 
+
+.world-clock .timezones clock .border .numeric-indicators > div {
+  width: inherit;
+  height: inherit;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: drop-shadow(0px 0px 1px #303030);
+}
