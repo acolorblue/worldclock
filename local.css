@@ -62,8 +62,8 @@
 }
 
 .mobile .file-links {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
 }
 
 .file-links::before {
@@ -72,7 +72,7 @@
   background-size: contain;
   -webkit-filter: drop-shadow(0px 0px 1px #303030);
   -webkit-filter: drop-shadow(0px 0px 1px #ffffff);
-  -webkit-filter: drop-shadow(0px 0px 1px #eee);
+  -webkit-filter: drop-shadow(0px 0px 1px #eeeeee);
 }
 
 
