@@ -38,33 +38,41 @@
   background-color: #0f0f0f;
 }
 
-
-/* WORLD CLOCK - HEADER */
-.world-clock > .header {
-  background-color: #141414;
-}
- 
-.world-clock > .header button.icons-b {
-  background: rgba(255, 255, 255, .1);
-}
-
-.world-clock > .header .top-bar .title {
-  padding: 0px 6px;
-  color: #ffffff;
-  text-shadow: 0px 0px 4px #545454;
-}
-
-.world-clock > .header .clock.call-to-action-controls {
-  display: inline-flex;
-}
-
-.world-clock > .header .call-to-action-controls > button {
-  background: rgba(255, 255, 255, .1);
-  color: #ddd;
-}
-
 .mobile.height-longer .world-clock .parent-container {
   padding: 5% 2%;
+}
+
+.file-links {
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 10px;
+  right: auto;
+  bottom: auto;
+  left: 10px;
+  z-index: 2;
+}
+
+.computer .file-links {
+  width: 60px;
+  height: 60px;
+}
+
+.mobile .file-links {
+  width: 48px;
+  height: 48px;
+}
+
+.file-links::before {
+  width: inherit;
+  height: inherit;
+  background-size: contain;
+  -webkit-filter: drop-shadow(0px 0px 1px #303030);
+  -webkit-filter: drop-shadow(0px 0px 1px #ffffff);
+  -webkit-filter: drop-shadow(0px 0px 1px #eee);
 }
 
 
