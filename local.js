@@ -9,7 +9,6 @@ function clockZoom() {
     $(this).parents('clock').removeClass('zoomed');
   })
   
-  
   // $('.world-clock .timezones clock').on('mousemove', function(e){
   //   $(this).children('.border').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
 // })
