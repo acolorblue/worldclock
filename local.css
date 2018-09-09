@@ -14,52 +14,29 @@
 
 
 
-/* APPLICATION */
-.application {
+/* WORLD CLOCK */
+.application.world-clock {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  box-shadow: 0 0 20px #333;
-  background: rgba(0, 0, 0, .8);
-  display: flex;
-  flex-direction: column;
-  bottom: auto;
-  z-index: 2;
-}
-
- 
-/* PARENT CONTAINER */
-.application .parent-container {
-  width: -webkit-fill-available;
-  height: 100%;
-  border-radius: 4px;
   overflow: scroll;
+  background-color: #0f0f0f;
   padding: 5%;
   font-family: Ahamono Monospaced;
   font-size: 14px;
   line-height: 1.4;
   word-break: break-word;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
 }
 
-
-
-
-/* APPLICATION = WORLD CLOCK */
-.application.world-clock {
-  background-color: #0f0f0f;
-}
-
-.mobile.height-longer .world-clock .parent-container {
+.mobile.height-longer .world-clock {
   padding: 5% 2%;
 }
 
-.file-links {
-  border-radius: 50%;
-  overflow: hidden;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+.world-clock .header {
+  width: 60px;
+  height: 60px;
   position: fixed;
   top: 10px;
   right: auto;
@@ -68,27 +45,33 @@
   z-index: 2;
 }
 
-.computer .file-links {
+.world-clock .header .file-links {
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.computer .world-clock .header .file-links {
   width: 60px;
   height: 60px;
 }
 
-.mobile .file-links {
+.mobile .world-clock .header .file-links {
   width: 45px;
   height: 45px;
 }
 
-.file-links::before {
+.world-clock .header .file-links::before {
   width: inherit;
   height: inherit;
   background-size: contain;
-  -webkit-filter: drop-shadow(0px 0px 1px #303030);
-  -webkit-filter: drop-shadow(0px 0px 1px #ffffff);
   -webkit-filter: drop-shadow(0px 0px 1px #eeeeee);
 }
 
 
-/* WORLD CLOCK - TIMEZONES */ 
+
+/* TIMEZONES */ 
 .world-clock .timezones {
   display: flex;
   flex-wrap: wrap;
@@ -110,7 +93,7 @@
 } 
 
 
-/* WORLD CLOCK - LOCATION */
+/* LOCATION */
 .world-clock .timezones clock::before {
   content: '';
   width: inherit;
@@ -129,7 +112,7 @@
 } 
 
 
-/* WORLD CLOCK - BORDER */
+/* BORDER */
 .world-clock .timezones clock .border { 
   width: inherit;
   height: inherit;
@@ -149,7 +132,7 @@
 }
 
 
-/* WORLDCLOCK - INDICATORS */
+/* NUMBERIC INDICATORS */
 .world-clock .timezones clock .border .numeric-indicators {
   width: 100%;
   height: 100%;
