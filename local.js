@@ -1,3 +1,21 @@
+// REMOVE LOADER
+function loader() {
+  setTimeout(function() {
+    indicatorsContainer();
+  }, 2500);
+  
+  setTimeout(function() {
+    $('.loader.random-color').addClass('hide');
+  }, 3000);
+  
+  setTimeout(function() {
+    $('.loader.random-color').remove();
+  }, 3400);
+}
+
+
+
+
 // CLOCK ZOOM
 function clockZoom() {
   $('.computer .world-clock .timezones clock .numeric-indicators')
@@ -19,6 +37,7 @@ function clockZoom() {
 
 // WINDOW ON LOAD
 window.onload = function() {
-  specifications();
+  randomColorGeneratorContainer();
+  loader();
   clockZoom();
 }
