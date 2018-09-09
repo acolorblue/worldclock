@@ -2,7 +2,7 @@
 function loader() {
   setTimeout(function() {
     indicatorsContainer();
-  }, 2500);
+  }, 2000);
   
   setTimeout(function() {
     $('.loader.random-color').addClass('hide');
