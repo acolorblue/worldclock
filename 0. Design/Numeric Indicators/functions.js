@@ -1,5 +1,11 @@
+// GLOBAL VARAIBLES
+var indicators_interval;
+
+
+
+// NUMERIC INDICATOR UPDATE
 function indicatorsContainer() {
-  var indicators_interval = setInterval(indicators, 1000);
+  indicators_interval = setInterval(indicators, 1000);
   function indicators() {
     var date = new Date(),
         timezone_offset,
