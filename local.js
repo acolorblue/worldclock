@@ -1,4 +1,4 @@
-// LOADER
+// REMOVE LOADER
 function loaderRandomColor() {
   setTimeout(function() {
     indicatorsContainer();
