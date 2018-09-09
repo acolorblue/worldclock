@@ -1,15 +1,16 @@
-// REMOVE LOADER
-function loader() {
+// LOADER
+function loaderRandomColor() {
   setTimeout(function() {
     indicatorsContainer();
   }, 2000);
   
   setTimeout(function() {
-    $('.loader.random-color').addClass('hide');
+    $('.loader').addClass('hide');
   }, 3000);
   
   setTimeout(function() {
-    $('.loader.random-color').remove();
+    $('.loader').remove();
+    window.clearInterval(random_color_generator_interval);
   }, 3400);
 }
 
@@ -38,6 +39,6 @@ function clockZoom() {
 // WINDOW ON LOAD
 window.onload = function() {
   randomColorGeneratorContainer();
-  loader();
+  loaderRandomColor();
   clockZoom();
 }
