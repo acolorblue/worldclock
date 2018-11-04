@@ -227,12 +227,16 @@
 
 
 /* APPLICATION = WORLD CLOCK - BORDER - BACKGROUND IMAGES */
+.world-clock .timezones clock.abuja-nigeria .border {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Abuja%2C%20Nigeria/Alex%20Majoli%20-%20Lagos%2C%20Nigeria%2C%202013%20-%20Compressed.jpg");
+}
+
 .world-clock .timezones clock.accra-ghana .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Accra%2C%20Ghana/Pieter%20Hugo%20-%20Permanent%20Error%2C%20Ghana%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.addis-ababa-ethiopia .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Addis%20Ababa%2C%20Ethiopia/Danakil%20Desert%2C%20Northern%20Ethiopia%20-%20Compressed.jpg");
+  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Addis%20Ababa%2C%20Ethiopia/Unidentified%20-%20Danakil%20Desert%2C%20Northern%20Ethiopia%20-%20Compressed.jpg");
 }
   
 .world-clock .timezones clock.algiers-algeria .border {
@@ -326,10 +330,6 @@
 
 .world-clock .timezones clock.kinshasa-dem-rep-of-congo .border {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Kinshasa%2C%20Dem%20Republic%20Of%20Congo/Stuart%20Franklin%20-%20Street%20life%20in%20Kinshasa%2C%20Dem%20Rep%20Of%20Congo%2C%202004%20-%20Compressed.jpg");
-}
-
-.world-clock .timezones clock.abuja-nigeria .border {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/Africa/Abuja%2C%20Nigeria/Alex%20Majoli%20-%20Lagos%2C%20Nigeria%2C%202013%20-%20Compressed.jpg");
 }
 
 .world-clock .timezones clock.libreville-gabon .border {
