@@ -1,3 +1,13 @@
+/* REGULAR CSS */
+.world-clock .timezones clock .border { 
+  background-size: cover;
+  background-position: center;
+  transition: background-size 200ms ease-in-out;
+}
+
+
+
+
 /* NUMERIC INDICATORS - HOURS */
 .world-clock .timezones clock .border .numeric-indicators > .hour.one {
   background-image: url("https://raw.githubusercontent.com/acolorblue/worldclock/master/0.%20Design/7.%20Seventh/Compressed/Hours/1.png");
