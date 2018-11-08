@@ -5,6 +5,21 @@
   transition: background-size 200ms ease-in-out;
 }
 
+.world-clock .timezones clock .border .numeric-indicators {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+} 
+
+.world-clock .timezones clock .border .numeric-indicators > div {
+  width: inherit;
+  height: inherit;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: drop-shadow(0px 0px 1px #303030);
+}
+
 
 
 
