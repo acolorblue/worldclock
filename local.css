@@ -1,17 +1,8 @@
-/* LOADER */
-.loader {
-  transition: all 400ms ease-in-out;
-} 
+.world-clock {
+  background-color: #000000;
+}
 
-.loader.hide {
-  opacity: 0;
-} 
-
-
-
-
-/* WORLD CLOCK */
-.application.world-clock {
+body > .world-clock {
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -26,11 +17,11 @@
   z-index: 2;
 }
 
-.mobile.height-longer .world-clock {
+.mobile.height-longer body > .world-clock {
   padding: 5% 2%;
 }
 
-.world-clock .sources.icons-b {
+body > .world-clock .sources.icons-b {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -43,17 +34,17 @@
   z-index: 2;
 }
 
-.computer .world-clock .sources.icons-b {
+.computer body > .world-clock .sources.icons-b {
   width: 60px;
   height: 60px;
 }
 
-.mobile .world-clock .sources.icons-b {
+.mobile body > .world-clock .sources.icons-b {
   width: 45px;
   height: 45px;
 }
 
-.world-clock .sources.icons-b::before {
+body > .world-clock .sources.icons-b::before {
   width: inherit;
   height: inherit;
   background-size: contain;
@@ -61,10 +52,72 @@
 }
 
 
-
 /* TIMEZONES */ 
 .world-clock .timezones {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.world-clock .timezones clock {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;  
+  position: relative;
+  margin: auto auto 5% auto;  
+} 
+
+.mobile.height-longer .world-clock .timezones clock {
+  width: 204px;
+  height: 204px;
+} 
+
+
+/* WORLD CLOCK - CLOCK - LOCATION */
+.world-clock .timezones clock::before {
+  content: '';
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.5);
+  display: block;  
+  position: absolute;
+  z-index: 2;
+} 
+
+.mobile .world-clock .timezones clock::before {
+  background-size: 101%;
+} 
+
+
+/* WORLD CLOCK - CLOCK - BORDER */
+.world-clock .timezones clock .border { 
+  width: inherit;
+  height: inherit;
+  border: 17px solid #141414;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: auto;
+  transition: background-size 200ms ease-in-out;
+}
+
+.world-clock .timezones clock .border .numeric-indicators {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.world-clock .timezones clock .border .numeric-indicators > div {
+  width: inherit;
+  height: inherit;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: drop-shadow(0px 0px 1px #303030);
 }
