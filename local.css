@@ -72,7 +72,16 @@ body > .world-clock .sources.icons-b::before {
 .mobile.height-longer .world-clock .timezones clock {
   width: 204px;
   height: 204px;
-} 
+}
+
+@media only screen and (device-width: 320px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .mobile.height-longer .world-clock .timezones clock {
+  width: 195px;
+  height: 195px;
+}
+}
+
 
 
 /* WORLD CLOCK - CLOCK - LOCATION */
