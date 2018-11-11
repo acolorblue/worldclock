@@ -6,14 +6,10 @@ body > .world-clock {
   width: 100%;
   height: 100%;
   overflow: scroll;
-  background-color: #000000;
-  padding: 5%;
   font-family: Ahamono Monospaced;
   font-size: 14px;
   line-height: 1.4;
   word-break: break-word;
-  display: flex;
-  flex-direction: column;
   z-index: 2;
 }
 
@@ -54,6 +50,10 @@ body > .world-clock .sources.icons-b::before {
 
 /* TIMEZONES */ 
 .world-clock .timezones {
+  width: 100%;
+  height: fit-content;
+  height: -moz-fit-content;
+  padding: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -72,16 +72,7 @@ body > .world-clock .sources.icons-b::before {
 .mobile.height-longer .world-clock .timezones clock {
   width: 204px;
   height: 204px;
-}
-
-@media only screen and (device-width: 320px) 
-  and (-webkit-device-pixel-ratio: 2) {
-    .mobile.height-longer .world-clock .timezones clock {
-  width: 169px;
-  height: 169px;
-}
-}
-
+} 
 
 
 /* WORLD CLOCK - CLOCK - LOCATION */
