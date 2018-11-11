@@ -13,10 +13,6 @@ body > .world-clock {
   z-index: 2;
 }
 
-.mobile.height-longer body > .world-clock {
-  padding: 5% 2%;
-}
-
 body > .world-clock .sources.icons-b {
   border-radius: 50%;
   background-size: contain;
@@ -57,6 +53,10 @@ body > .world-clock .sources.icons-b::before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.mobile.height-longer body > .world-clock .timezones {
+  padding: 5% 2%;
 }
 
 .world-clock .timezones clock {
