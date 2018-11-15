@@ -49,10 +49,13 @@ body > .world-clock .sources.icons-b::before {
   width: 100%;
   height: fit-content;
   height: -moz-fit-content;
-  padding: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+body > .world-clock .timezones {
+  padding: 5%;
 }
 
 .mobile.height-longer body > .world-clock .timezones {
