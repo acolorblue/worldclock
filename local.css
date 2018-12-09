@@ -13,7 +13,7 @@ body > .world-clock {
   z-index: 2;
 }
 
-body > .world-clock .sources.icons-b {
+body > .world-clock .sources.icon {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -26,17 +26,17 @@ body > .world-clock .sources.icons-b {
   z-index: 2;
 }
 
-.computer body > .world-clock .sources.icons-b {
+.computer body > .world-clock .sources.icon {
   width: 60px;
   height: 60px;
 }
 
-.mobile body > .world-clock .sources.icons-b {
+.mobile body > .world-clock .sources.icon {
   width: 45px;
   height: 45px;
 }
 
-body > .world-clock .sources.icons-b::before {
+body > .world-clock .sources.icon::before {
   width: inherit;
   height: inherit;
   background-size: contain;
